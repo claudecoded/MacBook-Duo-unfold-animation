@@ -1,6 +1,7 @@
 import Cocoa
 import QuartzCore
 import CoreGraphics
+import LidSensorBridge // Importa a ponte C++ diretamente graças ao Package.swift
 
 public class MacDuoCoreEngine: NSViewController {
     private var displayLink: CVDisplayLink?
